@@ -543,7 +543,11 @@ h6,
 }
 
 .footer .btn.btn-link::before {
-    display: none;
+    display:none;
+}
+
+.footer .btn.btn-link {
+    text-transform: none !important;
 }
 
 .navii{
