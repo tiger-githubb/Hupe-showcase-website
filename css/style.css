@@ -543,3 +543,7 @@ h6,
 .footer .btn.btn-link::before {
     display:none;
 }
+
+.footer .btn.btn-link {
+    text-transform: none !important;
+}
