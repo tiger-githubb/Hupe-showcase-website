@@ -500,3 +500,7 @@ h6,
     padding-right: 0;
     border-right: none;
 }
+
+.footer .btn.btn-link::before {
+    display: none !important;
+}
