@@ -4,6 +4,11 @@
     --secondary: #3d7933;
     --light: #F0F6FF;
     --dark: #262B47;
+    --black:black;
+}
+
+.bg-black{
+background-color: var(--black);
 }
 
 
@@ -267,7 +272,7 @@ h6,
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
         left 0px top 0px,
-        right 0px top 50%,
+        right 0px top 70%,
         center bottom;
     background-repeat: no-repeat;
 }
