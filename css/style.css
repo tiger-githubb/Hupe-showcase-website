@@ -509,3 +509,7 @@ h6,
 .footer .btn.btn-link::before {
     display: none !important;
 }
+
+.ftm{
+    justify-content: flex-end !important;
+}
