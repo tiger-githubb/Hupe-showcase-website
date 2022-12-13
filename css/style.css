@@ -430,8 +430,8 @@ h6,
 
 /*** Footer ***/
 .footer {
-    margin-top: 6rem;
-    padding-top: 9rem;
+    margin-top: 4rem;
+    padding-top: 10rem;
     background:
         url(../img/bg-circle.png),
         url(../img/bg-triangle.png),
@@ -512,4 +512,8 @@ h6,
 
 .ftm{
     justify-content: flex-end !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #1a7b39 !important;
 }
