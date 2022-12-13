@@ -7,6 +7,10 @@
     --black:black;
 }
 
+body {
+    background-color: white;
+}
+
 .bg-black{
 background-color: var(--black);
 }
@@ -517,3 +521,23 @@ h6,
 .accordion-button:not(.collapsed) {
     color: #1a7b39 !important;
 }
+
+.fi{
+    width: 100% !important;
+    height: 91px !important;
+
+}
+
+.size{
+
+    max-width: 2000 !important;
+}
+
+/* .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    max-width: 100% !important;	
+} */
+.country{
+    padding-top: 20px;
+    text-align: -webkit-center;
+}
+
