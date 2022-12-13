@@ -517,3 +517,15 @@ h6,
 .accordion-button:not(.collapsed) {
     color: #1a7b39 !important;
 }
+
+.specialh {
+        padding-bottom: 7rem !important;
+}
+
+.blog_a {
+    color: #1a7b39 !important;
+}
+
+.blog_a_t {
+    background-color: #1a7b39 !important;
+}
