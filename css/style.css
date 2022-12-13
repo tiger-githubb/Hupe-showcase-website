@@ -291,6 +291,7 @@ h6,
 /*** Feature ***/
 .feature-item {
     transition: .5s;
+    background-color: white !important;
 }
 
 .feature-item:hover {
@@ -299,6 +300,10 @@ h6,
 }
 
 
+
+.ccm {
+     background-color: white !important;
+}
 /*** Pricing ***/
 .pricing .nav {
     padding: 2px;
