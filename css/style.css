@@ -100,6 +100,10 @@ h6,
     opacity: 0;
 }
 
+.btn-primary-gradient{
+    background-color: white !important;
+}
+
 .btn.btn-primary-gradient,
 .btn.btn-secondary-gradient::after {
     background: linear-gradient(to bottom right, var(--primary), var(--secondary));
@@ -145,9 +149,10 @@ h6,
     position: fixed;
     display: none;
     right: 45px;
-    bottom: 45px;
+    bottom: 78px;
     z-index: 99;
-    border: none;
+    border: 1px solid;
+    border-color: white !important;
     background: linear-gradient(to bottom right, var(--primary), var(--secondary));
 }
 
@@ -251,6 +256,7 @@ h6,
     .sticky-top.navbar-light {
         position: fixed;
         background: #FFFFFF;
+
     }
 
     .sticky-top.navbar-light .navbar-nav .nav-link::before {
@@ -556,4 +562,5 @@ h6,
     padding-top: 20px;
     text-align: -webkit-center;
 }
+
 
