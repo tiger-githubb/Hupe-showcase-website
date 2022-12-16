@@ -95,7 +95,7 @@ h6,
     left: 0;
     width: 100%;
     height: 100%;
-    transition: .5s;
+    transition: .1s;
     z-index: -1;
     opacity: 0;
 }
@@ -106,8 +106,9 @@ h6,
 
 .btn.btn-primary-gradient,
 .btn.btn-secondary-gradient::after {
-    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+background-color: var(--primary) !important;
 }
+
 
 .btn.btn-secondary-gradient,
 .btn.btn-primary-gradient::after {
@@ -117,6 +118,8 @@ h6,
 .btn.btn-primary-gradient:hover::after,
 .btn.btn-secondary-gradient:hover::after {
     opacity: 1;
+    border: 1px solid white;
+    border-radius: 30px;
 }
 
 .btn-square {
@@ -562,5 +565,12 @@ h6,
     padding-top: 20px;
     text-align: -webkit-center;
 }
+
+.navbar-brand-img img {
+    -webkit-transition: all 3s;
+    transition: all 3s;
+
+}
+
 
 
