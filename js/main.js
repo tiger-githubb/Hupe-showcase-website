@@ -31,7 +31,7 @@
             if ($(this).scrollTop() > 45) {
                 $('.navbar-brand-img img').attr('src', 'img/logo_vert.png');
             }
-            if ($(this).scrollTop() < 45) {
+             else {
                 $('.navbar-brand-img img').attr('src', 'img/logo_blanc.png');
             }
         })
