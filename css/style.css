@@ -300,7 +300,7 @@ background-color: var(--primary) !important;
 /*** Feature ***/
 .feature-item {
     transition: .5s;
-    background-color: white !important;
+    background-color: var(--light)!important;
 }
 
 .feature-item:hover {

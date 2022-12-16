@@ -25,13 +25,12 @@
         }
     });
 
-
+    // logo transform
     $(function () {
         $(window).scroll(function () {
             if ($(this).scrollTop() > 45) {
                 $('.navbar-brand-img img').attr('src', 'img/logo_vert.png');
-            }
-             else {
+            } else {
                 $('.navbar-brand-img img').attr('src', 'img/logo_blanc.png');
             }
         })
