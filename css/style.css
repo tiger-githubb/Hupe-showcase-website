@@ -446,9 +446,12 @@ background-color: var(--primary) !important;
 
 
 /*** Footer ***/
+
+
+
 .footer {
     margin-top: 4rem;
-    padding-top: 10rem;
+    padding-top: 13rem;
     background:
         url(../img/bg-circle.png),
         url(../img/bg-triangle.png),
@@ -557,9 +560,9 @@ background-color: var(--primary) !important;
     max-width: 2000 !important;
 }
 
-/* .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+.container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
     max-width: 100% !important;	
-} */
+}
 .country{
     padding-top: 20px;
     text-align: -webkit-center;
