@@ -581,4 +581,11 @@ border-radius: 30px;
     background-color: #242b47;
 }
 
+.prqw{
+    border-radius: 100% !important;
+    padding: 20px !important;
+}
 
+.fa{
+    margin: 5px 10px 5px 10px;
+}
