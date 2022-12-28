@@ -312,7 +312,7 @@ border-radius: 30px;
 
 
 .ccm {
-     background-color: white !important;
+    background-color: var(--light)!important;
 }
 /*** Pricing ***/
 .pricing .nav {
@@ -577,7 +577,7 @@ border-radius: 30px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff;
+    color: #fff !important;
     background-color: #242b47;
 }
 
@@ -588,4 +588,8 @@ border-radius: 30px;
 
 .fa{
     margin: 5px 10px 5px 10px;
+}
+
+.bs1{
+    background-color: white !important;
 }
