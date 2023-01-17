@@ -577,8 +577,10 @@ border-radius: 30px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #fff !important;
-    background-color: #242b47;
+    color: #242b47;
+    background-color: transparent !important;
+    border-bottom: 2px solid ;
+    border-radius: 0px;
 }
 
 .prqw{
