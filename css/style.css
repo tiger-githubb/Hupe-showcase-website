@@ -10,6 +10,9 @@ body {
     background-color: white;
 }
 
+.bg-soft {
+    background-color: var(--light);
+}
 .bg-black{
 background-color: var(--black);
 }
@@ -277,13 +280,9 @@ border-radius: 30px;
 
 /*** Hero Header ***/
 .hero-header {
-    margin-bottom: 6rem;
-    padding: 16rem 0 0 0;
-    background:
-        url(../img/bg-circle.png),
-        url(../img/bg-triangle.png),
-        url(../img/bg-bottom.png),
-        linear-gradient(to bottom right, var(--primary), var(--secondary));
+    margin-bottom: 2rem;
+    padding: 12rem 0 0 0;
+    background:linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
         left 0px top 0px,
         right 0px top 70%,
@@ -452,12 +451,9 @@ border-radius: 30px;
 
 
 .footer {
-    margin-top: 4rem;
-    padding-top: 13rem;
+    margin-top: 50px;
+    padding-top: 50px;
     background:
-        url(../img/bg-circle.png),
-        url(../img/bg-triangle.png),
-        url(../img/bg-top.png),
         linear-gradient(to bottom right, var(--primary), var(--secondary));
     background-position:
         left 0px bottom 0px,
@@ -577,7 +573,7 @@ border-radius: 30px;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #242b47;
+    color: #ffffff;
     background-color: transparent !important;
     border-bottom: 2px solid ;
     border-radius: 0px;
